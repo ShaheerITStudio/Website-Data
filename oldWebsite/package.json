@@ -1,0 +1,25 @@
+{
+  "name": "new-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name mskdevhub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskdevhub/New-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mskdevhub/New-Website/issues"
+  },
+  "homepage": "https://github.com/mskdevhub/New-Website#readme",
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "wrangler": "^4.156.0"
+  }
+}
